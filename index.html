@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trying form</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body style="font-family: sans-serif;">
+    <fieldset>
+        <h1>Making Form</h1>
+        <div>
+            <form target="_blank" action="https://www.youtube.com/results">
+                <label for="youtube"><b>Search on Youtube :</b></label>
+                <input id="youtube" type="text" placeholder="Enter word to search" name="search_query">
+                <button style="background-color: red;">Sumbit</button>
+            </form>
+        </div>
+        <br>
+        <div>
+            <form target="_blank" action="https://www.flipkart.com/search">
+                <label for="flipcart"><b>Search on Flipcart :</b></label>
+                <input id="flipcart" type="text" placeholder="Enter product to search" name="q">
+                <button style="background-color: yellow;">Sumbit</button>
+            </form>
+
+        </div>
+    </fieldset>
+    <br>
+    <div>
+        <fieldset>
+            <h1>Farewell Party Survey Form</h1>
+            <form action="/">
+                <p>
+                    <label for="Name">Name:</label>
+                    <input id="Name" type="text" placeholder="Enter your name">
+                </p>
+                <p>
+                    <label for="Email">Email:</label>
+                    <input id="Email" type="email" placeholder="Enter your Email">
+                </p>
+                <p>
+                    <label for="Age">Age:</label>
+                    <input id="Age" type="number" placeholder="Enter your Age">
+                </p>
+                <p>
+                    <label for="role">Which option best discribes you?</label>
+                    <select id="role">
+                        <option value="student">Student</option>
+                        <option value="intern">Intern</option>
+                        <option value="professional">Professional</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="ch_option">Will you attend the party?</label>
+                    <input type="radio" id="ch_option" name="ans">Yes
+                    <input type="radio" id="ch_option" name="ans">No
+                </p>
+                <div>
+                    <label>What did you like about the program?</label>
+                    <div>
+                        <input type="checkbox">Training
+                        <br>
+                        <input type="checkbox">The Learning Session from Indusry Experts
+                        <br>
+                        <input type="checkbox">Community Meetups
+                        <br>
+                        <input type="checkbox">Brown Bag Sessions
+                        <br>
+                        <input type="checkbox">Switching to Hybrid Mode
+                        <br>
+                        <input type="checkbox">Food, Office, etc.
+                        <br>
+                    </div>
+                </div>
+                <p>
+                    <label for="box">Any comments or suggestions</label>
+                    <textarea name="text" id="box"></textarea>
+                </p>
+                <button type="reset">Reset</button>
+                <button type="submit">Sumbit</button>
+            </form>
+        </fieldset>
+    </div>
+</body>
+
+</html>
